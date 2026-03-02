@@ -2,7 +2,7 @@
 - 👀 I’m interested in data
 - 🌱 I’m currently learning DevOps and E2E testing
 - 💞️ I’m looking to collaborate on projects
-- ⚡ Fun fact: 42 
+- ⚡ Fun fact: NULL
 
 <!---
 liulinradio/liulinradio is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
