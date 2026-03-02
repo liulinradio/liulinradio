@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Lin
 - 👀 I’m interested in data
-- 🌱 I’m currently learning DevOps
+- 🌱 I’m currently learning DevOps and E2E testing
 - 💞️ I’m looking to collaborate on projects
 - ⚡ Fun fact: 42 
 
