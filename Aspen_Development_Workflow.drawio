@@ -238,7 +238,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Copy the files you need to customize into the src folder and place them in the appropriate category (templates, forms, procedure etc.)" vertex="1">
-          <mxGeometry height="88" width="270" x="1264.5" y="1212" as="geometry" />
+          <mxGeometry height="90" width="270" x="1264.5" y="1210" as="geometry" />
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-88" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
@@ -249,6 +249,11 @@
         <mxCell id="jjfztm2umKBvJ-gzqL4L-89" connectable="0" parent="jjfztm2umKBvJ-gzqL4L-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="branch out from main&amp;nbsp;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjfztm2umKBvJ-gzqL4L-119" edge="1" parent="1" source="jjfztm2umKBvJ-gzqL4L-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="1199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-82" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=6;fontStyle=0" value="main branch" vertex="1">
@@ -337,6 +342,18 @@
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate the whole bundle from devTest based on the defined scope (by defautl save for 90 days)" vertex="1">
           <mxGeometry height="93" width="216.5" x="1609.5" y="1542" as="geometry" />
+        </mxCell>
+        <mxCell id="jjfztm2umKBvJ-gzqL4L-126" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="jjfztm2umKBvJ-gzqL4L-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1122" y="1232" />
+            </Array>
+            <mxPoint x="1122" y="1229.5" as="sourcePoint" />
+            <mxPoint x="1254" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjfztm2umKBvJ-gzqL4L-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hotfix branch" vertex="1">
+          <mxGeometry height="79" width="157.5" x="964.5" y="1197" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
