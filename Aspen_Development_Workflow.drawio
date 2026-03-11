@@ -278,7 +278,7 @@
             <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jjfztm2umKBvJ-gzqL4L-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="develop branch&lt;div&gt;(reflect or maybe uat&amp;nbsp; uat?&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="jjfztm2umKBvJ-gzqL4L-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="develop branch&lt;div&gt;(reflect devtest or maybe uat&amp;nbsp; uat?&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1281" y="-8030" as="geometry" />
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature branch" vertex="1">
@@ -326,7 +326,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jjfztm2umKBvJ-gzqL4L-104" parent="1" style="whiteSpace=wrap;html=1;" value="Create PR to develop" vertex="1">
+        <mxCell id="jjfztm2umKBvJ-gzqL4L-104" parent="1" style="whiteSpace=wrap;html=1;" value="Create PR to develop with meaningful comment and squash commits" vertex="1">
           <mxGeometry height="60" width="154.5" x="1279.25" y="-7463" as="geometry" />
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-110" edge="1" parent="1" source="jjfztm2umKBvJ-gzqL4L-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="jjfztm2umKBvJ-gzqL4L-87">
