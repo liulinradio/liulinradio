@@ -233,7 +233,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jjfztm2umKBvJ-gzqL4L-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Copy the files you need to customize into the src folder and place them in the appropriate category (templates, forms, procedure etc.)" vertex="1">
-          <mxGeometry height="90" width="200" x="1230" y="1050" as="geometry" />
+          <mxGeometry height="90" width="200" x="1230" y="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
