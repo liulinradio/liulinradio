@@ -232,7 +232,7 @@
         <mxCell id="jjfztm2umKBvJ-gzqL4L-70" edge="1" parent="1" source="jjfztm2umKBvJ-gzqL4L-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.008;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" target="jjfztm2umKBvJ-gzqL4L-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jjfztm2umKBvJ-gzqL4L-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Copy the objects or files you need to customize into the src folder and place them in the appropriate category (template, forms, procedure etc.)" vertex="1">
+        <mxCell id="jjfztm2umKBvJ-gzqL4L-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Copy the files you need to customize into the src folder and place them in the appropriate category (templates, forms, procedure etc.)" vertex="1">
           <mxGeometry height="90" width="200" x="1230" y="1050" as="geometry" />
         </mxCell>
       </root>
