@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1140" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2240" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,11 @@
         <mxCell id="EJdN-zL9e5n3f5KLUaeS-7" connectable="0" parent="EJdN-zL9e5n3f5KLUaeS-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
           <mxGeometry relative="1" x="-0.5172" y="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-16" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EJdN-zL9e5n3f5KLUaeS-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Does this new&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;feature&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;belong to a new project&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -40,11 +45,50 @@
         <mxCell id="EJdN-zL9e5n3f5KLUaeS-11" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=11;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="production should have the same filter" vertex="1">
           <mxGeometry height="50" width="90" x="605" y="60" as="geometry" />
         </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-20" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="EJdN-zL9e5n3f5KLUaeS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EJdN-zL9e5n3f5KLUaeS-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Export the object bundle and copy it under the correct category" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="120" as="geometry" />
         </mxCell>
         <mxCell id="EJdN-zL9e5n3f5KLUaeS-14" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=11;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Make sure the bundle definition is included" vertex="1">
           <mxGeometry height="50" width="90" x="760" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-19" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="EJdN-zL9e5n3f5KLUaeS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update the filter to include this object" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-25" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EJdN-zL9e5n3f5KLUaeS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="DevTest and Prod filters definition should be up-to-date" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-27" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EJdN-zL9e5n3f5KLUaeS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Aspen-FTW-V2, clone from the template repo" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-22" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=27;fontStyle=1;verticalAlign=middle;align=center;autosizeText=1;" value="Aspen&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="160" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="320" as="sourcePoint" />
+            <mxPoint x="1091.3793103448277" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-24" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=27;fontStyle=1;verticalAlign=middle;align=center;autosizeText=1;" value="GitHub" vertex="1">
+          <mxGeometry height="40" width="160" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Follow the github workflow" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-28" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=12;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="During development, copy/paste for debugging, then use bundle tool to update the version number(PR) for customized objects&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="690" y="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
