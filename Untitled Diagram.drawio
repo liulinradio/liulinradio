@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1140" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-3" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EJdN-zL9e5n3f5KLUaeS-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Aspen Custom Feature A" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-4" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-7" connectable="0" parent="EJdN-zL9e5n3f5KLUaeS-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.5172" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Does this new&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;feature&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;belong to a new project&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="250" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-9" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Give it a project ID, e.g. BW-SPEC-ED" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-13" edge="1" parent="1" source="EJdN-zL9e5n3f5KLUaeS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EJdN-zL9e5n3f5KLUaeS-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Create a new filter to scope the related objects on devTest" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-11" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=11;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="production should have the same filter" vertex="1">
+          <mxGeometry height="50" width="90" x="605" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Export the object bundle and copy it under the correct category" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EJdN-zL9e5n3f5KLUaeS-14" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=11;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Make sure the bundle definition is included" vertex="1">
+          <mxGeometry height="50" width="90" x="760" y="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
